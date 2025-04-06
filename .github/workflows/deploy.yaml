@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: naveenk92/docker-react
+      - uses: actions/checkout@v2
       - run: |
           rm -rf node_modules
           rm -f package-lock.json
